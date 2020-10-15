@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script src="https://code.jquery.com/jquery-git.js"></script>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <title>How to get textarea text using  jQuery.</title>
+</head>
+<body>
+     <textarea id="textarea" rows="4" cols="50">
+          Hello My name is Bla Bala.You are bla Bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat quam consequuntur quos quia atque quo accusamus recusandae ex, 
+          dolorum repudiandae corrupti placeat laudantium voluptatum doloribus molestias, est nostrum quas.
+     </textarea>
+</body>
+<script>
+     var text = $('textarea#textarea').val();  
+     console.log(text);
+</script>
+</html>

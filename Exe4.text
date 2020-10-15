@@ -1,0 +1,4 @@
+function sum(num1,num2){
+     total_sum= num1 + num2;
+     return total_sum
+}
